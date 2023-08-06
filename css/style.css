@@ -324,7 +324,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/banner2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/banner2.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -333,15 +333,10 @@ h3{
 }
 
 .cta h1{
+    font-size: 25px;
     color: white;
     margin-bottom: 40px;
-    padding: 0;
-}
-
-@media(max-width:700px){
-    .cta h1{
-        font-size: 24px;
-    }
+    padding: 78px;
 }
 
 /* Footer */
